@@ -1,15 +1,15 @@
 <?php
+
+namespace tests\lib\Calculator\Division;
+
 /**
  * Created by PhpStorm.
  * User: tim
  * Date: 14.07.18
  * Time: 15:05
  */
-namespace lib\Calculator\Division;
 
-include_once __DIR__ . "/../Base.php";
-
-class Test extends \lib\Calculator\Base
+class Test extends \tests\lib\Calculator\Base
 {
 
     public function test()

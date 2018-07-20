@@ -1,8 +1,6 @@
 <?php
 
-namespace lib\Calculator\Multiply;
-
-include_once __DIR__ . "/../Base.php";
+namespace tests\lib\Calculator\Multiply;
 
 /**
  * Created by PhpStorm.
@@ -11,7 +9,7 @@ include_once __DIR__ . "/../Base.php";
  * Time: 13:29
  */
 
-class Test extends \lib\Calculator\Base
+class Test extends \tests\lib\Calculator\Base
 {
 
     public function test() {
