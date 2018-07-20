@@ -1,8 +1,9 @@
 <?php
 
-namespace home\kov\lifetracker\tests\lib\Calculator\Sum;
+namespace lib\Calculator\Sum;
 
-include_once "/home/kov/lifetracker/lib/Calculator.php";
+include_once __DIR__ . "/../Base.php";
+
 /**
  * Created by PhpStorm.
  * User: kov
@@ -10,15 +11,11 @@ include_once "/home/kov/lifetracker/lib/Calculator.php";
  * Time: 13:29
  */
 
-class Test extends \PHPUnit\Framework\TestCase
+class Test extends \lib\Calculator\Base
 {
-	
-	public function __construct($name = null, array $data = [], $dataName = '') {
-		parent::__construct($name, $data, $dataName);
-	}
-	
+
 	public function test() {
-		$calculator = new \Calculator();
+		$calculator = $this->getTestInstance();
 		$this->assertEquals(3, $calculator->sum(1,2));
 	}
 	
