@@ -13,6 +13,6 @@ class View
 	 * @return string
 	 */
 	public static function render($model) {
-		return '<b>' . $model->getData() . '<\b><br>';
+		return '<b>' . $model->getData() . '</b><br>';
 	}
 }
