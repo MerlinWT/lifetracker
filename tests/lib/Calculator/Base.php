@@ -9,7 +9,7 @@ namespace tests\lib\Calculator;
  * Time: 14:45
  */
 
-abstract class Base extends \BaseTest
+abstract class Base extends \Test
 {
 
     /**

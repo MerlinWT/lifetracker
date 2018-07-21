@@ -7,7 +7,7 @@ namespace tests\lib\Application\Run;
  * Date: 21.07.18
  * Time: 11:45
  */
-class Test extends \BaseTest
+class Test extends \Test
 {
 	
 	public function test() {
