@@ -9,6 +9,6 @@
 class ControllerConsole
 {
 	public function actionUsage() {
-		echo \ModelConsole::getData() . "\n";
+		echo \ViewConsole::render(new \ModelConsole());
 	}
 }

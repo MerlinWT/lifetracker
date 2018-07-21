@@ -8,7 +8,7 @@
  */
 class Model
 {
-	public static function getData() {
+	public function getData() {
 		return "Hello world";
 	}
 }

@@ -8,7 +8,7 @@
  */
 class ModelConsole
 {
-	public static function getData() {
+	public function getData() {
 		return "Just run me again =)";
 	}
 }

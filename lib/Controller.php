@@ -9,6 +9,6 @@
 class Controller
 {
 	public function actionIndex() {
-		echo '<b>' . \Model::getData() . '<\b><br>';
+		echo \View::render(new \Model());
 	}
 }
