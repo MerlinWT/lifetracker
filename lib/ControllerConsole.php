@@ -9,6 +9,6 @@
 class ControllerConsole
 {
 	public function actionUsage() {
-		echo "Just run me again =)\n";
+		echo \ModelConsole::getData() . "\n";
 	}
 }

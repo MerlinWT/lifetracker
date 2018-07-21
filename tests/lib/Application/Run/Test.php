@@ -15,7 +15,7 @@ class Test extends \Test
 		\Application::run();
 		$actual = ob_get_clean();
 		
-		$this->assertEquals("Hello world", $actual);
+		$this->assertEquals("<b>Hello world<\b><br>", $actual);
 	}
 	
 }
