@@ -9,14 +9,8 @@ namespace tests\lib\Calculator;
  * Time: 14:45
  */
 
-abstract class Base extends \PHPUnit\Framework\TestCase
+abstract class Base extends \BaseTest
 {
-
-    abstract public function test();
-
-    public function __construct($name = null, array $data = [], $dataName = '') {
-        parent::__construct($name, $data, $dataName);
-    }
 
     /**
      * @return \Calculator
