@@ -12,7 +12,9 @@ class Application
 	//TODO Implement Singleton pattern
 	
 	public static function run() {
-		echo "hello world";
+		$controller = new \Controller();
+		
+		$controller->actionIndex();
 	}
 	
 }

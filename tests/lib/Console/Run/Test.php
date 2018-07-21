@@ -15,7 +15,7 @@ class Test extends \Test
 		\Console::run();
 		$actual = ob_get_clean();
 		
-		$this->assertEquals("hello world\n", $actual);
+		$this->assertEquals("Just run me again =)\n", $actual);
 	}
 	
 }
