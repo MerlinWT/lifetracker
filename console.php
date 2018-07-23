@@ -3,4 +3,4 @@
 
 include_once __DIR__ . '/system/bootstrap.php';
 
-\Console::run();
+\Console::run(\request::get());

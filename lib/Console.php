@@ -11,7 +11,7 @@ class Console extends Application
 	
 	//TODO Implement Singleton pattern
 	
-	public static function run() {
+	public static function run($request) {
 		$controller = new \ControllerConsole();
 		
 		$controller->actionUsage();
