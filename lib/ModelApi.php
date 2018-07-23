@@ -10,6 +10,14 @@ class ModelApi
 {
 	public function getData() {
 		//TODO Store version in config
-		return "0.0.1";
+		return [
+			'date' => 1532376000,
+			'version' =>
+				[
+					'minor' => 0,
+					'major' => 0,
+					'build' => 1,
+				]
+		];
 	}
 }
