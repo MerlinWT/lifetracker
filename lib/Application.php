@@ -15,7 +15,7 @@ class Application
 	 * @param array $request
 	 */
 	public static function run($request) {
-		list ($controller, $action) = explode('/', $request['url']);
+		list (, $controller, $action) = explode('/', $request['url']);
 		$controller = self::getController($controller);
 		$action = self::getActionName($action);
 		
